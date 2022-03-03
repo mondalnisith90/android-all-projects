@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/ic_cake_black_24dp" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+
+        android:layout_marginStart="40dp"
+
+
+        android:textSize="30sp" />
+
+</LinearLayout>

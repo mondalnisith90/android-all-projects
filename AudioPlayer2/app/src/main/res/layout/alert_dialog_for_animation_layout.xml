@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    tools:ignore="RtlHardcoded">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <RadioGroup
+        android:id="@+id/radio_group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/solid_love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solid Love Animation"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+
+            <RadioButton
+                android:id="@+id/border_love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Border Love Animation"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/android_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Animation"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/flower_animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flower Animation"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/brightness_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brightness Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:id="@+id/cake_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cake Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/circle_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Circle Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/face_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Face Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:id="@+id/full_moon_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Moon Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+
+
+
+        <RadioButton
+            android:id="@+id/half_moon_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Half Moon Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:id="@+id/music_note_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Note Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+
+        <RadioButton
+            android:id="@+id/sun_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <RadioButton
+            android:id="@+id/star_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star  Animation"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+
+
+    </RadioGroup>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

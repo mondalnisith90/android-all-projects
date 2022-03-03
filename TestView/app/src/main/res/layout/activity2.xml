@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/layout1">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff"
+        android:layout_marginTop="10dp"
+        android:text="Nisi"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:singleLine="true"
+        android:text="18.07 MB"
+        android:textColor="#aa00ee"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="19:12:2019  20.40PM"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_marginLeft="-100dp"
+        android:textColor="#aa00ff"
+        />
+
+
+
+</RelativeLayout>

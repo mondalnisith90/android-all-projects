@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cancel"
+        android:title="cancel"
+        android:icon="@drawable/ic_cancel"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/search_view"
+        android:title="@string/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always|collapseActionView"
+
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/sound_control"
+        android:title="Sound Control"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/audio_speed"
+        android:title="Audio Speed"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/theme"
+        android:title="Theme"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        app:showAsAction="never"/>
+
+</menu>

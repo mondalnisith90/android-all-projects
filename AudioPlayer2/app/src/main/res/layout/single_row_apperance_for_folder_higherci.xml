@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:aandroid="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_margin="0dp"
+    android:background="@android:color/white"
+    app:ignore="NamespaceTypo">
+
+
+    <TextView
+        android:id="@+id/row_position_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_view"
+            android:layout_marginStart="7dp"
+            android:layout_centerVertical="true"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="5dp">
+            <ImageView
+                android:id="@+id/folder_higherci_image_view"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                />
+            <ImageView
+                android:id="@+id/folder_icon_image_view"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:src="@drawable/ic_folder"
+                android:visibility="invisible"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@id/card_view">
+
+
+            <TextView
+                android:id="@+id/folder_higherci_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:text="ghghuhuhuuhuhuhghhjh"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:ellipsize="middle"
+                android:layout_below="@+id/folder_higherci_image_view"/>
+
+
+            <ImageView
+                android:id="@+id/folder_higherciimage_view"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/folder_higherci_item_number"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/card_view"
+            android:singleLine="true"
+            android:text="18.58MB"
+            android:layout_below="@+id/linear_layout1"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#aa00ee"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/folder_higherci_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:singleLine="true"
+            android:text="August/10/2019  01:44"
+            android:layout_below="@+id/linear_layout1"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#aa00ee"
+            android:textSize="14sp"
+            android:layout_marginEnd="10dp" />
+
+
+        <TextView
+            android:id="@+id/folder_higherci_path"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="djsdjsdksjfkdkfjkk"
+            android:layout_below="@id/folder_higherci_item_number"
+            android:singleLine="true"
+            android:layout_marginTop="-10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_toRightOf="@id/card_view"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Audio Player</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">search</string>
+    <string name="login">LOGIN</string>
+    <string name="setting">SETTING</string>
+    <string name="help">HELP</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="details">Details</string>
+    <string name="favourite">Favourite</string>
+    <string name="file_details">FILE DETAILS</string>
+    <string name="stop_song">STOP SONG</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="theme">Theme</string>
+    <string name="audio_speed">Audio Speed</string>
+    <string name="sound_control">Sound Control</string>
+    <string name="about_icons">About Icons</string>
+    <string name="hide_folder_path">Hide Folder Path</string>
+    <string name="hide_file_date_time_info">Hide File Date Time Info</string>
+    <string name="hide_file_size">Hide File Size</string>
+    <string name="animation">Animation</string>
+
+    <string-array name="equalizer1">
+        <item>Custom</item>
+        <item>Normal</item>
+        <item>Classical</item>
+        <item>Dance</item>
+        <item>Flat</item>
+        <item>Flok</item>
+        <item>Heavy Metal</item>
+        <item>Jazz</item>
+        <item>Pop</item>
+        <item>Rock</item>
+    </string-array>
+
+</resources>

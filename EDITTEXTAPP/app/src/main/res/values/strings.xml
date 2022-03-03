@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EDIT TEXT APP</string>
+    <string name="first_string">Enter String</string>
+    <string name="second_string">Enter Number</string>
+    <string name="alert">Show Alert</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SECOND ACTIVITY"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_marginBottom="200dp"/>
+
+    <Button
+        android:id="@+id/start_activity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START THIRD ACTIVITY"
+        android:textSize="20sp"
+        android:textColor="#aa00ee"/>
+
+</LinearLayout>

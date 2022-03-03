@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">demo project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="name">
+        <item>NISITH</item>
+        <item>AKASH</item>
+        <item>ABDUL</item>
+        <item>ASHAFUK</item>
+        <item>TAPAS</item>
+        <item>ASISH</item>
+        <item>ARNAB</item>
+        <item>BIVASH</item>
+        <item>VOLA</item>
+        <item>BULATE</item>
+        <item>GUN</item>
+        <item>GRAMMER</item>
+        <item>BAPAN</item>
+        <item>RAMESH</item>
+        <item>BAPI</item>
+        <item>BADAL</item>
+        <item>RITASH</item>
+        <item>SAMARESH</item>
+        <item>PABTRA</item>
+        <item>DEVA</item>
+        <item>BAPLAB</item>
+        <item>CHUTTU</item>
+        <item>NISITH</item>
+        <item>AKASH</item>
+        <item>ABDUL</item>
+        <item>ASHAFUK</item>
+        <item>TAPAS</item>
+        <item>ASISH</item>
+        <item>ARNAB</item>
+        <item>BIVASH</item>
+        <item>VOLA</item>
+        <item>BULATE</item>
+        <item>GUN</item>
+        <item>GRAMMER</item>
+        <item>BAPAN</item>
+        <item>RAMESH</item>
+        <item>BAPI</item>
+        <item>BADAL</item>
+        <item>RITASH</item>
+        <item>SAMARESH</item>
+        <item>PABTRA</item>
+        <item>DEVA</item>
+        <item>BAPLAB</item>
+        <item>CHUTTU</item>
+
+    </string-array>
+
+    <string-array name="country">
+        <item>INDIA</item>
+        <item>BANGLEDASH</item>
+        <item>AFGUNISTHAN</item>
+        <item>AMERICA</item>
+        <item>ENGLAND</item>
+        <item>SRILANKA</item>
+        <item>MALDIP</item>
+        <item>AUSTRILA</item>
+        <item>SOUTH AFREICA</item>
+        <item>CHINA</item>
+        <item>JAPAN</item>
+        <item>NEPAL</item>
+        <item>BHUTAN</item>
+        <item>INDIA</item>
+        <item>BANGLEDASH</item>
+        <item>AFGUNISTHAN</item>
+        <item>AMERICA</item>
+        <item>ENGLAND</item>
+        <item>SRILANKA</item>
+        <item>MALDIP</item>
+        <item>AUSTRILA</item>
+        <item>SOUTH AFREICA</item>
+        <item>CHINA</item>
+        <item>JAPAN</item>
+        <item>NEPAL</item>
+        <item>BHUTAN</item>
+        <item>INDIA</item>
+        <item>BANGLEDASH</item>
+        <item>AFGUNISTHAN</item>
+        <item>AMERICA</item>
+        <item>ENGLAND</item>
+        <item>SRILANKA</item>
+        <item>MALDIP</item>
+        <item>AUSTRILA</item>
+        <item>SOUTH AFREICA</item>
+        <item>CHINA</item>
+        <item>JAPAN</item>
+        <item>NEPAL</item>
+        <item>BHUTAN</item>
+    </string-array>
+
+
+</resources>

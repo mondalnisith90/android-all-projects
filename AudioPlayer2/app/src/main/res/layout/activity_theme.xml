@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemeActivity">
+
+    <include
+        android:id="@+id/app_toolbar"
+        layout="@layout/app_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gallery"
+        >
+        <ImageView
+            android:id="@+id/image_view1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_insert_photo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:text="Pick Image From Gallery"
+            android:layout_toRightOf="@id/image_view1"
+            android:padding="15dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/image_view2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_phone_iphone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"
+            android:text="Pick Appliction Image"
+            android:layout_toRightOf="@id/image_view2"
+            android:padding="15dp"
+
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

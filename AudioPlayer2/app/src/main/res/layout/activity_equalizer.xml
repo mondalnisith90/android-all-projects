@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".EqualizerActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/lay0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BDBDBD">
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_cancel"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_equalizer_blue"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/image_view"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:background="#BDBDBD"
+            android:layout_centerInParent="true">
+
+
+
+
+
+            <TextView
+                android:id="@+id/_equalizer_spinner_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:paddingStart="15dp"
+                tools:ignore="RtlSymmetry"
+                android:layout_marginTop="4dp"
+                android:paddingEnd="10dp"/>
+
+
+            <Spinner
+                android:id="@+id/equalizer_spinner"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/ic_down_arrow"
+                />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/equalizer_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="#BDBDBD"
+            android:checked="false"
+            android:text="OFF"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:rotation="270">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lay1">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="60  HZ"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:rotation="90" />
+            <SeekBar
+                android:id="@+id/seekbar1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="15dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_for_eq"
+                android:thumb="@drawable/thumb_for_eq"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lay1"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="230HZ"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:rotation="90"
+                />
+            <SeekBar
+                android:id="@+id/seekbar2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="15dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_for_eq"
+                android:thumb="@drawable/thumb_for_eq"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lay2"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="910HZ"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:rotation="90"
+                />
+            <SeekBar
+                android:id="@+id/seekbar3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="15dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_for_eq"
+                android:thumb="@drawable/thumb_for_eq"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/lay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lay3"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="3.6KHZ"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:rotation="90"
+                />
+            <SeekBar
+                android:id="@+id/seekbar4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="15dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_for_eq"
+                android:thumb="@drawable/thumb_for_eq"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lay4"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="14KHZ "
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
+                android:rotation="90"
+                />
+            <SeekBar
+                android:id="@+id/seekbar5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:maxHeight="15dp"
+                android:progress="40"
+                android:progressDrawable="@drawable/progress_for_eq"
+                android:thumb="@drawable/thumb_for_eq"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_marginTop="35dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.goodiebag.protractorview.ProtractorView
+                android:id="@+id/bass_boost"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                app:angle="100"
+                app:angleTextSize="13sp"
+                app:arcColor="#BDBDBD"
+                app:arcProgressColor="#EE00AA"
+                app:arcWidth="15dp"
+                app:progressWidth="15dp"
+                app:roundEdges="true"
+                app:textColor="#00FFFF"
+                app:textProgressColor="#FFFFFF"
+                app:thumb="@drawable/thumb_for_eq"
+                app:tickColor="#32CD32"
+                app:tickIntervals="15"
+                app:tickLength="12dp"
+                app:tickOffset="20dp"
+                app:tickProgressColor="#ff0000"
+                app:ticksBetweenLabel="three"
+                app:touchInside="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:text="BASS BOOST"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <com.goodiebag.protractorview.ProtractorView
+                android:id="@+id/virtualizer"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                app:arcColor="#BDBDBD"
+                app:arcProgressColor="#EE00AA"
+                app:tickColor="#32CD32"
+                app:tickProgressColor="#ff0000"
+                app:textColor="#00FFFF"
+                app:textProgressColor="#FFFFFF"
+                app:angleTextSize="13sp"
+                app:arcWidth="15dp"
+                app:progressWidth="15dp"
+                app:tickOffset="20dp"
+                app:tickLength="12dp"
+                app:angle="100"
+                app:tickIntervals="15"
+                app:ticksBetweenLabel="three"
+                app:touchInside="true"
+                app:roundEdges="true"
+                app:thumb="@drawable/thumb_for_eq"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIRTUALIZER"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:layout_marginTop="-15dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

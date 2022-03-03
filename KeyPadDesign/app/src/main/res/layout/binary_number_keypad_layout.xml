@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_above="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#000000"
+        />
+
+   <EditText
+       android:id="@+id/edit_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Enter Text"
+       android:textSize="20sp"
+       android:layout_centerInParent="true"
+       android:gravity="center"
+       />
+
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_below="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/keypad_layout"
+        android:layout_below="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ADA2A2"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/button_one"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:background="@drawable/keypad_button_shape"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/button_zero"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:background="@drawable/keypad_button_shape"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            />
+
+
+
+            <Button
+                android:id="@+id/button_point"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="."
+                android:textSize="30sp"
+                android:background="@drawable/keypad_button_shape"
+
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/linear_layout1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/button_cross"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_cross"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+        <Button
+            android:id="@+id/button_done"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Done"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/keypad_done_button_shape"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

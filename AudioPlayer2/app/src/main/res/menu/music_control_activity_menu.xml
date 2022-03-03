@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+
+
+
+    <item
+        android:id="@+id/stop_song"
+        android:title="@string/stop_song"
+        android:icon="@drawable/ic_cancel_red"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/song_detail"
+        android:title="@string/file_details"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/equalizer"
+        android:title="@string/equalizer"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/theme"
+        android:title="@string/theme"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/animation"
+        android:title="@string/animation"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/audioSpeed"
+        android:title="@string/audio_speed"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/soundControl"
+        android:title="@string/sound_control"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/about_icons"
+        android:title="@string/about_icons"
+        app:showAsAction="never"
+        />
+
+</menu>

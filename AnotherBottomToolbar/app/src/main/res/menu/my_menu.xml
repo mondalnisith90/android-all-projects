@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="HOME"
+        android:icon="@drawable/home_icon"/>
+    <item
+        android:id="@+id/information"
+        android:title="INFO"
+        android:icon="@drawable/information_icon"/>
+    <item
+        android:id="@+id/live_tv"
+        android:title="LiveTV"
+        android:icon="@drawable/livetv_icon"/>
+</menu>

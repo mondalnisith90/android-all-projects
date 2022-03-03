@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Leds Controller"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="#00796B"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/heading"
+        android:background="@drawable/background_1"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        >
+
+        <Button
+            android:id="@+id/green_led_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Button 1"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:padding="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/green_led_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_black_bulb"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/relative_layout1"
+        android:background="@drawable/background_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        >
+
+        <Button
+            android:id="@+id/blue_led_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Button 2"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:padding="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/blue_led_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_black_bulb"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@+id/relative_layout2"
+        android:background="@drawable/background_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        >
+
+        <Button
+            android:id="@+id/disco_led_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Button 3"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:padding="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/disco_green_led_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_whiteblack_bulb"
+            android:layout_marginEnd="15dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/disco_blue_led_image_view"
+            />
+
+        <ImageView
+            android:id="@+id/disco_blue_led_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_whiteblack_bulb"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_centerVertical="true"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

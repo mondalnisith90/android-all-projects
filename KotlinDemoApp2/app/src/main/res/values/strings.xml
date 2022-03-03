@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kotlin Demo App2</string>
+    <string name="dialog">Show Dialog</string>
+</resources>

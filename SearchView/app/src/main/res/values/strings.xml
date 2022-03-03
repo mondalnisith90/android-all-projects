@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Search View</string>
+
+    <string-array name="country">
+        <item>INDIA</item>
+        <item>AMERICA</item>
+        <item>ENGLAND</item>
+        <item>SINGAPURE</item>
+        <item>MALASHIA</item>
+        <item>SRILANKA</item>
+        <item>BANGLADASH</item>
+        <item>RASSIA</item>
+        <item>CHINA</item>
+        <item>FRANCE</item>
+        <item>AUSTRILA</item>
+        <item>JAPAN</item>
+        <item>MALDIP</item>
+
+
+    </string-array>
+
+</resources>

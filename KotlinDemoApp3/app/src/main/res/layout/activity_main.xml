@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="30sp"
+        android:textColor="#ee00aa"
+        />
+
+
+    <Button
+        android:id="@+id/count_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Increment Count"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/next_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Activity"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@+id/count_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        />
+
+
+    <Button
+        android:id="@+id/sum_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum Activity"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@+id/next_activity_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        />
+
+
+    <Button
+        android:id="@+id/country_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country List"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@+id/sum_activity_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        />
+
+
+
+
+
+</RelativeLayout>

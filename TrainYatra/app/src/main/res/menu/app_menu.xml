@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/hide_result"
+
+        android:title="HIDE RESULT"
+        android:icon="@drawable/ic_cancel"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/change_api_key"
+        android:title="Change API key"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="never"
+        />
+</menu>

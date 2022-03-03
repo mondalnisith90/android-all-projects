@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/keypad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B4B1B1"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/button_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="1"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:id="@+id/button_two"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="2"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="3"
+                android:textSize="20sp"
+                android:background="@drawable/keypad_button_shape"
+
+                android:layout_margin="5dp"
+                />
+
+
+            <Button
+                android:id="@+id/button_four"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="4"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/button_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="5"
+                android:background="@drawable/keypad_button_shape"
+
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout2"
+            android:layout_below="@+id/linear_layout1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="6"
+                android:textSize="20sp"
+                android:background="@drawable/keypad_button_shape"
+
+                android:layout_margin="5dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_seven"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="7"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/button_eight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="8"
+                android:background="@drawable/keypad_button_shape"
+
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_nine"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="9"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/button_zero"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="0"
+                android:background="@drawable/keypad_button_shape"
+
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout3"
+            android:layout_below="@+id/linear_layout2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:id="@+id/button_a"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/keypad_button_shape"
+                android:text="A"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+            <Button
+                android:id="@+id/button_b"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="B"
+                android:textSize="20sp"
+                android:background="@drawable/keypad_button_shape"
+
+                android:layout_margin="5dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_c"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="C"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:id="@+id/button_d"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="D"
+                android:background="@drawable/keypad_button_shape"
+
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/button_e"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="E"
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/linear_layout3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/button_f"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/keypad_button_shape"
+                android:text="F"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+
+            <Button
+                android:id="@+id/button_point"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="."
+                android:background="@drawable/keypad_button_shape"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+            <Button
+                android:id="@+id/button_cross"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_cross"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                />
+
+
+            <Button
+                android:id="@+id/button_done"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Done"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_done_button_shape"
+                android:textSize="15sp"
+                android:layout_marginStart="0dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

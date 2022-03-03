@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumActivity">
+
+    <EditText
+        android:id="@+id/first_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter First Number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/second_number_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Second Number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_below="@+id/first_number_edit_text"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <Button
+        android:id="@+id/sum_button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_number_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_shape"
+        android:text="Sum"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sum_button"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#ee00aa"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

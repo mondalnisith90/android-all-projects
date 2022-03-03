@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22451096076",
+    "project_id": "nodemcuiot-4658f",
+    "storage_bucket": "nodemcuiot-4658f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22451096076:android:279eb0ac3d3272321fbc29",
+        "android_client_info": {
+          "package_name": "com.nisith.nodemcu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22451096076-ov61nq1miu3g9934ikk6dg8b9ojenb38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8G6tbI7WVxx9Xip1L2hHjJMxL_SCAvhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22451096076-ov61nq1miu3g9934ikk6dg8b9ojenb38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

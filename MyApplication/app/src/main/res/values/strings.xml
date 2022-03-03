@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="button2">Delete Row</string>
+    <string name="button1">Add Row</string>
+    <string-array name="name">
+        <item>NISITH</item>
+        <item>ASISH</item>
+        <item>TAPAS</item>
+        <item>AKASH</item>
+        <item>AKSHAY</item>
+        <item>TAPAS</item>
+        <item>RAMESH</item>
+        <item>ANIMESH</item>
+        <item>SAHOKE</item>
+        <item>SAPAN</item>
+        <item>SUVASISH</item>
+        <item>TILAK</item>
+        <item>RITESH</item>
+        <item>TARINI</item>
+        <item>TAPAS</item>
+        <item>ARNAB</item>
+        <item>TANTI</item>
+        <item>NISITH</item>
+        <item>ASISH</item>
+        <item>TAPAS</item>
+        <item>AKASH</item>
+        <item>AKSHAY</item>
+        <item>TAPAS</item>
+        <item>RAMESH</item>
+        <item>ANIMESH</item>
+        <item>SAHOKE</item>
+        <item>SAPAN</item>
+        <item>SUVASISH</item>
+        <item>TILAK</item>
+        <item>RITESH</item>
+        <item>TARINI</item>
+        <item>TAPAS</item>
+        <item>ARNAB</item>
+        <item>TANTI</item>
+
+    </string-array>
+
+    <string-array name="number">
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+        <item>9091473871</item>
+
+    </string-array>
+
+</resources>

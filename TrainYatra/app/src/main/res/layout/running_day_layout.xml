@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAYS"
+            android:textSize="20sp"
+            android:textColor="#ee00aa"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="42dp"            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" STATUS "
+            android:textSize="18sp"
+            android:textColor="#EE00AA"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="66dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_below="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="MONDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"            />
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="TUESDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"
+            />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_below="@id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="WEDNESDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"
+            />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_below="@id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="THURSDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"            />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_below="@id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="FRIDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"            />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_below="@id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="SATURDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"            />
+
+        <TextView
+            android:id="@+id/saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_below="@id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="SUNDAY : "
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="34dp"            />
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="40dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+</ScrollView>

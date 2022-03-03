@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/folder_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Folder View"
+                android:padding="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Equalizer"
+                android:padding="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Sound Control"
+                android:padding="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/background_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Background Theme"
+                android:padding="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Set Color"
+                android:padding="15dp"
+                />
+
+            <TextView
+                android:id="@+id/animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Set Animation"
+                android:padding="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/single_row_apperance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="View Style"
+                android:padding="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:text="Text Style"
+                android:padding="15dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

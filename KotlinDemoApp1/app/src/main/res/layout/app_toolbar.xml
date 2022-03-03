@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/Theme.AppCompat.Light"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dram Pad"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginStart="10dp"
+        />
+
+    <Switch
+        android:id="@+id/theme_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:text="Dark Theme"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:switchPadding="10dp"
+        android:switchMinWidth="55dp"
+        android:checked="false"
+        android:layout_marginTop="14dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</androidx.appcompat.widget.Toolbar>

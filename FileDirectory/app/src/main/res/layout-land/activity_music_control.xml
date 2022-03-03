@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".MusicControlActivity">
+
+    <LinearLayout
+        android:id="@+id/sub_linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="560dp"
+            android:layout_height="150dp"
+            android:src="@drawable/audio_background7"
+            android:layout_marginTop="-50dp"/>
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/colorViolate"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:id="@+id/play_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pause" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@+id/play_button"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/next" />
+
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toLeftOf="@+id/play_button"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/previous" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="20dp">
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxHeight="7dp"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/left_timmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:text="12:40"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/right_timmer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="540dp"
+                android:text="1:29:23"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

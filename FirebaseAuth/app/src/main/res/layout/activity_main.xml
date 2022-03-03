@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/email"/>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="#ee00aa"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_below="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email id"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/background_dark"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"
+        android:text=" SIGN IN "
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="#aa00ee"
+        android:layout_marginTop="30sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/submit"
+        android:text=" CREATE NEW ACCOUNT "
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="#ee00aa"
+        android:layout_marginTop="20sp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        android:text=" HOME ACTIVITY "
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="#ee00aa"
+        android:layout_marginTop="20sp"/>
+
+</RelativeLayout>

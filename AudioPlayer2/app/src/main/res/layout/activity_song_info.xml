@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SongInfoActivity"
+    >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:textAlignment="textStart"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:text="Badshi AngtymPart5" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+
+            <TextView
+                android:id="@+id/text_view1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File Name"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:padding="15dp"/>
+            <TextView
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Badshi Aganti part5"
+                android:layout_toEndOf="@+id/text_view1"
+                android:textSize="15sp"
+                android:layout_marginStart="5dp"
+                android:textColor="#aa00ee"
+                android:paddingTop="17dp"/>
+
+        <TextView
+            android:id="@+id/file_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Type"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"
+            android:layout_below="@id/file_location"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=".mp3"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/file_location"
+            android:textColor="#aa00ee"
+            android:paddingTop="17dp"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimary"
+                android:padding="15dp"
+                android:layout_below="@id/file_name"/>
+
+        <TextView
+            android:id="@+id/file_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/storage/emulated/0/Badshi Angaati part 5"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/file_name"
+            android:textColor="#aa00ee"
+            android:paddingTop="17dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Size"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:paddingLeft="15dp"
+            android:layout_below="@id/file_type"/>
+
+        <TextView
+            android:id="@+id/file_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 MB"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/file_type"
+            android:textColor="#aa00ee"
+            android:paddingTop="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Time"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"
+            android:layout_below="@id/file_size"/>
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="August/20/2019    1:35"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/file_size"
+            android:textColor="#aa00ee"
+            android:paddingTop="17dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARTIST"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"
+            android:layout_below="@id/date_time"/>
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="August/20/2019    1:35"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/date_time"
+            android:textColor="#aa00ee"
+            android:paddingTop="17dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALBUM"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"
+            android:layout_below="@id/artist"/>
+
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="August/20/2019    1:35"
+            android:layout_toEndOf="@+id/text_view1"
+            android:textSize="15sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/artist"
+            android:textColor="#aa00ee"
+            android:paddingTop="17dp"/>
+
+            </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

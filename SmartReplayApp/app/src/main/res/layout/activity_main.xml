@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/local_user_edit_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:hint="Local User"
+      android:textAlignment="center"
+      android:maxLines="1"
+      android:textSize="18sp"
+      android:layout_toStartOf="@+id/local_send_image_view"
+      />
+
+    <ImageView
+        android:id="@+id/local_send_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/ic_send_icon"
+        android:background="#D9DCD9"
+        />
+
+  <TextView
+      android:id="@+id/local_received_message"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textColor="#ee00aa"
+      android:layout_below="@+id/local_user_edit_text"
+      android:padding="5dp"
+      />
+
+    <TextView
+        android:id="@+id/local_user_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/local_received_message"
+        android:textSize="19sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/remote_user_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Remote Friend"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:layout_toStartOf="@+id/remote_send_image_view"
+        android:layout_below="@+id/local_user_options"
+
+        />
+
+    <ImageView
+        android:id="@+id/remote_send_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/ic_send_icon1"
+        android:background="#D9DCD9"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/local_user_options"
+        />
+
+  <TextView
+      android:id="@+id/remote_received_message"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textColor="#ee00aa"
+      android:layout_below="@+id/remote_user_edit_text"
+      android:padding="5dp"
+      />
+
+    <TextView
+        android:id="@+id/remote_user_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/remote_received_message"
+        android:textSize="19sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
